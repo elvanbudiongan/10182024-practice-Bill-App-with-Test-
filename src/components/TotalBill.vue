@@ -10,7 +10,7 @@ import { useBill } from '@/composables/useBill' ;
 
 <template>
   <div>
-    <p :style="{color: totalColor}">
+    <p id="total-display" :style="{color: totalColor}">
       Total: {{currencySymbol}} {{typeof store.total === 'number' ? store.total.toFixed(2) : "0:00"}}
     </p>
   </div>

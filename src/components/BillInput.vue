@@ -18,12 +18,12 @@
   <div class="input-container">
     <div>
       <label>Price</label>
-      <input type="number" data-testid="price-input" v-model.number="store.price" @input="updatePrice(store.price)">
+      <input type="number" id="price-input" v-model.number="store.price" @input="updatePrice(store.price)">
     </div>
 
     <div>
       <label>Tip</label>
-      <input type="number" data-testid="tip-input"  v-model.number="store.tip" @input="updateTip(store.tip)">
+      <input type="number" id="tip-input"  v-model.number="store.tip" @input="updateTip(store.tip)">
     </div>
 
   </div>
