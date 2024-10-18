@@ -12,7 +12,7 @@ export function useBill(){
         break;
       case 'USD': return '$' ;
         break;
-      defaul: return '$' ;
+      default: return '$' ;
         break;
     }
   });
